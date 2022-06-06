@@ -1,4 +1,4 @@
-export default function Table()
+export default function Table({desciption,item,price})
 {
     return (
       <>
@@ -12,9 +12,9 @@ export default function Table()
           </thead>
           <tbody>
               <tr>
-              <td>something</td>
-              <td>software</td>
-              <td>100$</td>
+              <td>{desciption}</td>
+              <td>{item}</td>
+              <td>{price}</td>
               </tr>
           </tbody>
       </table>
