@@ -35,7 +35,7 @@ function Invoice() {
           <MainDetails name={name} address={address} />
           <ClientDetails clientName={clientName} clientAddress={clientAddress} />
           <Dates invoiceNumber={invoiceNumber} invoiceDate={invoiceDate} dueDate={dueDate} />
-          <Table />
+          <Table  desciption={desciption} item={item} price={price}  />
           <Note notes={Notes} />
           <Footer name={name} email={email} phoneNo={phone} bankAccount={bankAccount} bankAccountHolder={name} website={website} />
           <button id="printPageButton" onClick={() => setShowInvoice(false)} className="bg-blue-500 py-2 px-8 text-white rounded shadow border-2 border-blue-500 hover:bg-transparent hover:text-blue-500 transition-all duration-300">Edit Information</button>
